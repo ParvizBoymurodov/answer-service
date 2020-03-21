@@ -1,0 +1,17 @@
+GET http://localhost:9997/api/answers
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+###
+
+DELETE http://localhost:9997/api/answers/25
+
+###

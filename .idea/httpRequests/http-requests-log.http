@@ -1,0 +1,375 @@
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T094014.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T094011.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T093941.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T092341.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "id": 1,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T092334.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "id": 1,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T074930.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/25
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T074916.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T074908.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T074905.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/24
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072736.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T072733.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072722.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072643.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/23
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072632.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T072628.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072540.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/22
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T072523.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T061820.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "id": "0",
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T061813.400.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T061254.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T061243.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T061111.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "id": 0,
+  "question": "Как вас зовут?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T061100.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-21T060927.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовут?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-21T060901.200.json
+
+###
+
+DELETE http://localhost:9997/api/delete/answers/17
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T091249.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовут?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-20T091230.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T091219.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T075605.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T070307.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T061026.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T060959.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовут?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-20T060956.200.json
+
+###
+
+DELETE http://localhost:9997/api/delete/answers/5
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T060942.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T060804.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T054156.200.json
+
+###
+
+POST http://localhost:9997/api/add/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовут?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-20T054148.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T054022.200.json
+
+###
+
+DELETE http://localhost:9997/api/delete/answers/5
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T054005.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-20T053842.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+###
+
+GET http://localhost:9997/answers
+
+<> 2020-03-20T051600.200.json
+
+###
+
