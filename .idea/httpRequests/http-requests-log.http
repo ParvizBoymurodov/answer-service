@@ -1,3 +1,63 @@
+DELETE http://localhost:9997/api/answers/27
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-22T014635.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+<> 2020-03-22T014628.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "Как вас зовуdsfsdf?",
+  "answer": "Меня зовут Парвиз)))"
+}
+
+<> 2020-03-22T100937.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-22T061041.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/26
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-22T061013.200.json
+
+###
+
 GET http://localhost:9997/api/answers
 
 <> 2020-03-21T094014.200.json
@@ -320,56 +380,6 @@ GET http://localhost:9997/api/answers
 GET http://localhost:9997/api/answers
 
 <> 2020-03-20T060804.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T054156.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "question": "Как вас зовут?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-20T054148.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T054022.200.json
-
-###
-
-DELETE http://localhost:9997/api/delete/answers/5
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T054005.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T053842.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-###
-
-GET http://localhost:9997/answers
-
-<> 2020-03-20T051600.200.json
 
 ###
 

@@ -6,12 +6,12 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
 }
 
 ###
 
-DELETE http://localhost:9997/api/answers/25
+DELETE http://localhost:9997/api/answers/27
 
 ###

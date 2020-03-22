@@ -25,9 +25,8 @@ const (
 	envDSN  = "DATABASE_URL"
 )
 
-
-func fromFLagOrEnv(flag *string, envName string) (server string, ok bool){
-	if *flag != ""{
+func fromFLagOrEnv(flag *string, envName string) (server string, ok bool) {
+	if *flag != "" {
 		return *flag, true
 	}
 	return os.LookupEnv(envName)
