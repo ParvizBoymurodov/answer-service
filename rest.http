@@ -12,6 +12,6 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:9997/api/answers/27
+DELETE http://localhost:9997/api/answers/33
 
 ###

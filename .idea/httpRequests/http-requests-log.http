@@ -1,3 +1,83 @@
+DELETE http://localhost:9997/api/answers/33
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-23T114306.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+<> 2020-03-23T114227.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-23T105008.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+<> 2020-03-23T104956.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-23T091412.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/31
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-03-23T091352.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+<> 2020-03-23T091347.200.json
+
+###
+
+POST http://localhost:9997/api/answers
+Content-Type: application/json
+
+{
+  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
+  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+}
+
+<> 2020-03-23T043451.200.json
+
+###
+
 DELETE http://localhost:9997/api/answers/27
 
 ###
@@ -310,76 +390,6 @@ DELETE http://localhost:9997/api/delete/answers/17
 GET http://localhost:9997/api/answers
 
 <> 2020-03-20T091249.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "question": "Как вас зовут?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-20T091230.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T091219.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T075605.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T070307.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T061026.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T060959.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "question": "Как вас зовут?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-20T060956.200.json
-
-###
-
-DELETE http://localhost:9997/api/delete/answers/5
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T060942.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T060804.200.json
 
 ###
 
