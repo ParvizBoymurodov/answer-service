@@ -26,13 +26,14 @@ const (
 )
 
 func fromFLagOrEnv(flag *string, envName string) (server string, ok bool) {
-	if *flag != "" {
+	if *flag != ""  {
 		return *flag, true
 	}
 	return os.LookupEnv(envName)
 }
 
 func main() {
+
 	flag.Parse()
 	hostf, ok := fromFLagOrEnv(host, envHost)
 	if !ok {

@@ -1,10 +1,12 @@
-DELETE http://localhost:9997/api/answers/33
+GET http://localhost:9997/api/answers
+
+<> 2020-04-25T094848.200.json
 
 ###
 
-GET http://localhost:9997/api/answers
+GET http://localhost:9997/api/categories
 
-<> 2020-03-23T114306.200.json
+<> 2020-04-25T094842.200.json
 
 ###
 
@@ -12,17 +14,44 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs",
+  "id_category": 1
 }
 
-<> 2020-03-23T114227.200.json
+<> 2020-04-25T094821.200.json
 
 ###
 
 GET http://localhost:9997/api/answers
 
-<> 2020-03-23T105008.200.json
+<> 2020-04-25T094643.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T094331.200.json
+
+###
+
+DELETE http://localhost:9997/api/categories/1
+
+###
+
+DELETE http://localhost:9997/api/categories/1
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-25T090358.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T090040.200.json
 
 ###
 
@@ -30,27 +59,94 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs",
+  "id_category": 2
 }
 
-<> 2020-03-23T104956.200.json
+<> 2020-04-25T090035.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T090013.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T085722.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T085659.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T085235.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T085233.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T085230.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T084911.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T084728.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T084556.200.json
 
 ###
 
 GET http://localhost:9997/api/answers
 
-<> 2020-03-23T091412.200.json
+<> 2020-04-25T083803.200.json
 
 ###
 
-DELETE http://localhost:9997/api/answers/31
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T083755.500.txt
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T082413.200.json
 
 ###
 
 GET http://localhost:9997/api/answers
 
-<> 2020-03-23T091352.200.json
+<> 2020-04-25T082345.200.json
 
 ###
 
@@ -58,11 +154,35 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "ншк",
+  "answer": "гк",
+  "id_category": 2
 }
 
-<> 2020-03-23T091347.200.json
+<> 2020-04-25T082341.200.json
+
+###
+
+POST http://localhost:9997/api/categories
+Content-Type: application/json
+
+{
+  "name": "Салом"
+}
+
+<> 2020-04-25T082257.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T081924.500.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-25T081719.200.json
 
 ###
 
@@ -70,21 +190,76 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "Как  зовут?",
+  "answer": "Меня зовут Парвиз",
+  "id_category": 1
 }
 
-<> 2020-03-23T043451.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/27
+<> 2020-04-25T081715.200.json
 
 ###
 
 GET http://localhost:9997/api/answers
 
-<> 2020-03-22T014635.200.json
+<> 2020-04-25T081550.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-25T081542.500.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T051813.200.json
+
+###
+
+DELETE http://localhost:9997/api/answers/5
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T051456.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-24T114846.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T114817.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T114521.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T114508.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T114343.500.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-24T113817.500.txt
 
 ###
 
@@ -92,11 +267,12 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "Как  зовут?",
+  "answer": "Меня зовут Парвиз",
+  "id_category": 1
 }
 
-<> 2020-03-22T014628.200.json
+<> 2020-04-24T113810.200.json
 
 ###
 
@@ -104,9 +280,12 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "Как  зовут?",
+  "answer": "Меня зовут Парвиз",
+  "id_category": 1
 }
+
+<> 2020-04-24T113637.500.txt
 
 ###
 
@@ -114,33 +293,12 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "question": "Как  зовут?",
+  "answer": "Меня зовут Парвиз"
+  "id_category": 1
 }
 
-<> 2020-03-22T100937.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-22T061041.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/26
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-22T061013.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T094014.200.json
+<> 2020-04-24T113627.400.txt
 
 ###
 
@@ -148,248 +306,75 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "question": "Как  зовут?",
+  "answer": "Меня зовут Парвиз"
 }
 
-<> 2020-03-21T094011.200.json
+<> 2020-04-24T113522.500.txt
 
 ###
 
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T093941.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T092341.200.json
-
-###
-
-POST http://localhost:9997/api/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 1,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит"
 }
 
-<> 2020-03-21T092334.200.json
+<> 2020-04-24T113502.200.json
 
 ###
 
-POST http://localhost:9997/api/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 1,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит"
 }
 
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T074930.200.json
+<> 2020-04-24T113357.500.txt
 
 ###
 
-DELETE http://localhost:9997/api/answers/25
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T074916.200.json
-
-###
-
-POST http://localhost:9997/api/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 0,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит"
 }
 
-<> 2020-03-21T074908.200.json
+<> 2020-04-24T113252.500.txt
 
 ###
 
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T074905.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/24
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072736.200.json
-
-###
-
-POST http://localhost:9997/api/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 0,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит"
 }
 
-<> 2020-03-21T072733.200.json
+<> 2020-04-24T113239.500.txt
 
 ###
 
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072722.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072643.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/23
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072632.200.json
-
-###
-
-POST http://localhost:9997/api/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 0,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит"
 }
 
-<> 2020-03-21T072628.200.json
-
 ###
 
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072540.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/22
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T072523.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
+POST http://localhost:9997/api/categories
 Content-Type: application/json
 
 {
-  "id": 0,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
+  "name": "Кредит",
 }
 
-<> 2020-03-21T061820.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "id": "0",
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-21T061813.400.txt
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T061254.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "id": 0,
-  "question": "Как вас зовуdsfsdf?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-21T061243.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T061111.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "id": 0,
-  "question": "Как вас зовут?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-21T061100.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-21T060927.200.json
-
-###
-
-POST http://localhost:9997/api/add/answers
-Content-Type: application/json
-
-{
-  "question": "Как вас зовут?",
-  "answer": "Меня зовут Парвиз)))"
-}
-
-<> 2020-03-21T060901.200.json
-
-###
-
-DELETE http://localhost:9997/api/delete/answers/17
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-03-20T091249.200.json
+<> 2020-04-24T112859.400.txt
 
 ###
 

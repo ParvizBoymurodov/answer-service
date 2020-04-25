@@ -1,3 +1,4 @@
+//---------------Answers------------------
 GET http://localhost:9997/api/answers
 
 ###
@@ -6,12 +7,42 @@ POST http://localhost:9997/api/answers
 Content-Type: application/json
 
 {
-  "question": "На какую максимальную сумму может получить товар в рассрочку при первом обращение?",
-  "answer": "В случае с 1000$ со сроком на 1 год рассрочка можно сказать следующее: Ожидаемый годовой доход от 10 до 30 долларов рассрочка с ожидаемым ежемесячным доходом от 1 до 3 долларов.."
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs",
+  "id_category": 1
 }
 
 ###
 
-DELETE http://localhost:9997/api/answers/33
+DELETE http://localhost:9997/api/answers/5
+
+###
+
+
+
+//---------------Search------------
+GET http://localhost:9997/api/answers/search?q=к
+
+###
+
+
+
+
+//------------Categories----------------
+GET http://localhost:9997/api/categories
+
+###
+
+
+POST http://localhost:9997/api/categories
+Content-Type: application/json
+
+{
+  "name": "Салом"
+}
+
+###
+
+DELETE http://localhost:9997/api/categories/1
 
 ###
