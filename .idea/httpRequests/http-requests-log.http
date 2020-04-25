@@ -1,3 +1,122 @@
+GET http://localhost:9997/api/answers/search?q=нывавы
+
+<> 2020-04-25T040816.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=Как
+
+<> 2020-04-25T040751.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=к
+
+<> 2020-04-25T040737.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-25T040710.200.json
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Салом"
+}
+
+<> 2020-04-25T040352.200.json
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Салом"
+}
+
+<> 2020-04-25T040325.200.json
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "sddd"
+}
+
+<> 2020-04-25T035952.200.json
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "sddd"
+}
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "sddd"
+}
+
+###
+
+POST http://localhost:9997/api/categories
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "sddd"
+}
+
+<> 2020-04-25T035403.200.json
+
+###
+
+POST http://localhost:9997/api/categories/2
+Content-Type: application/json
+
+{
+  "name": "sddd"
+}
+
+###
+
+POST http://localhost:9997/api/categories/2
+Content-Type: application/json
+
+{
+  "name": "sddd"
+}
+
+###
+
+POST http://localhost:9997/api/categories/2
+Content-Type: application/json
+
+{
+  "name": "sadasd"
+}
+
+###
+
 GET http://localhost:9997/api/answers
 
 <> 2020-04-25T094848.200.json
@@ -242,139 +361,6 @@ GET http://localhost:9997/api/answers
 GET http://localhost:9997/api/answers
 
 <> 2020-04-24T114521.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T114508.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T114343.500.txt
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T113817.500.txt
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "Как  зовут?",
-  "answer": "Меня зовут Парвиз",
-  "id_category": 1
-}
-
-<> 2020-04-24T113810.200.json
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "Как  зовут?",
-  "answer": "Меня зовут Парвиз",
-  "id_category": 1
-}
-
-<> 2020-04-24T113637.500.txt
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "Как  зовут?",
-  "answer": "Меня зовут Парвиз"
-  "id_category": 1
-}
-
-<> 2020-04-24T113627.400.txt
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "Как  зовут?",
-  "answer": "Меня зовут Парвиз"
-}
-
-<> 2020-04-24T113522.500.txt
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит"
-}
-
-<> 2020-04-24T113502.200.json
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит"
-}
-
-<> 2020-04-24T113357.500.txt
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит"
-}
-
-<> 2020-04-24T113252.500.txt
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит"
-}
-
-<> 2020-04-24T113239.500.txt
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит"
-}
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Кредит",
-}
-
-<> 2020-04-24T112859.400.txt
 
 ###
 

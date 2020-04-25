@@ -21,7 +21,7 @@ DELETE http://localhost:9997/api/answers/5
 
 
 //---------------Search------------
-GET http://localhost:9997/api/answers/search?q=к
+GET http://localhost:9997/api/answers/search?q=нывавы
 
 ###
 
@@ -44,5 +44,15 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:9997/api/categories/1
+
+###
+
+POST http://localhost:9997/api/categories/up
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Салом"
+}
 
 ###

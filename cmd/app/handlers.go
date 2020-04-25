@@ -149,6 +149,47 @@ func (receiver server) handleRemovedCategory() func(http.ResponseWriter, *http.R
 	}
 }
 
+func (receiver server) handleUpdateCategory() func(http.ResponseWriter, *http.Request) {
+	return func(writer http.ResponseWriter, request *http.Request) {
+		//idCategory, ok := mux.FromContext(request.Context(), "id")
+		//if !ok {
+		//	http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+		//	return
+		//}
+		//id, err := strconv.Atoi(idCategory)
+		//if err != nil {
+		//	http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+		//	return
+		//}
+		get := request.Header.Get("Content-Type")
+		if get != "application/json" {
+			log.Println("can't")
+			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+			return
+		}
+		сategory := models.Сategory{}
+		err := rest.ReadJSONBody(request, &сategory)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+			log.Printf("can'r read json: %d", err)
+			return
+		}
+		err = receiver.answersSvc.UpdateCategory(сategory)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+			log.Print(err)
+			return
+		}
+
+		err = rest.WriteJSONBody(writer, &сategory)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+		}
+
+	}
+
+}
+
 //------------------------------------Search----------------------------------
 
 func (receiver server) search() func(http.ResponseWriter, *http.Request) {

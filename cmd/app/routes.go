@@ -9,4 +9,5 @@ func (receiver *server) InitRoutes() {
 	receiver.router.GET("/api/categories",receiver.handleCategoryList())
 	receiver.router.POST("/api/categories",receiver.handleAddCategory())
 	receiver.router.DELETE("/api/categories/{id}",receiver.handleRemovedCategory())
+	receiver.router.POST("/api/categories/up",receiver.handleUpdateCategory())
 }

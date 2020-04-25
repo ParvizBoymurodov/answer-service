@@ -80,6 +80,21 @@ func (service *AnswersSvc) RemovedCategoryById(id int) (err error)  {
 	return nil
 
 }
+
+func (service *AnswersSvc) UpdateCategory(c models.Сategory) (err error) {
+	update, err := service.pool.Acquire(context.Background())
+	if err != nil {
+		log.Printf("can't acuire: %d", err)
+		return errors2.QueryErrors("can't execute pool: ", err)
+	}
+	defer update.Release()
+	_, err = update.Exec(context.Background(), "Update categories SET name = $1 WHERE id = $2 AND removed = false", c.Name,c.Id)
+	if err != nil {
+		return errors2.QueryErrors("can't remove : ", err)
+	}
+	return nil
+}
+
 // ----------------------------Answers-------------------------------------
 func (service *AnswersSvc) QuestionsAndAnswersList() (list []models.QuestionsAndAnswersSelect, err error) {
 	list = make([]models.QuestionsAndAnswersSelect, 0)
