@@ -14,6 +14,18 @@ Content-Type: application/json
 
 ###
 
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 5,
+  "question": "hh",
+  "answer": "rr"
+
+}
+
+###
+
 DELETE http://localhost:9997/api/answers/5
 
 ###
@@ -21,7 +33,7 @@ DELETE http://localhost:9997/api/answers/5
 
 
 //---------------Search------------
-GET http://localhost:9997/api/answers/search?q=нывавы
+GET http://localhost:9997/api/answers/search?q=ree
 
 ###
 

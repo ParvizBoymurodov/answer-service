@@ -13,6 +13,12 @@ type  QuestionsAndAnswersSelect struct {
 	СategoryName string `json:"сategory_name"`
 }
 
+type QuestionsAndAnswers2 struct {
+	Id int64 `json:"id"`
+	Question string `json:"question"`
+	Answer  string   `json:"answer"`
+}
+
 type  Сategory struct {
 	Id int64 `json:"id"`
 	Name string `json:"name"`

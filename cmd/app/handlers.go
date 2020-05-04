@@ -78,6 +78,37 @@ func (receiver server) handleAddAnswersAndQuestions() func(http.ResponseWriter, 
 
 }
 
+func (receiver server) updateAnswerAndQuestion() func(http.ResponseWriter, *http.Request) {
+	return func(writer http.ResponseWriter, request *http.Request) {
+		get := request.Header.Get("Content-Type")
+		if get != "application/json" {
+			log.Println("can't")
+			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+			return
+		}
+		a := models.QuestionsAndAnswers2{}
+		err := rest.ReadJSONBody(request, &a)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
+			log.Printf("can'r read json: %d", err)
+			return
+		}
+		err = receiver.answersSvc.UpdateAnswerAndQuestion(a)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+			log.Print(err)
+			return
+		}
+
+		err = rest.WriteJSONBody(writer, &a)
+		if err != nil {
+			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+		}
+
+	}
+
+}
+
 // --------------------------------------------Category---------------------------------------------------------
 
 func (receiver server) handleCategoryList() func(http.ResponseWriter, *http.Request) {

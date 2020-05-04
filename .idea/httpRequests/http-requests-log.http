@@ -1,3 +1,145 @@
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 5,
+  "question": "hh",
+  "answer": "rr"
+
+}
+
+<> 2020-05-04T035539.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T035517.200.json
+
+###
+
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 6,
+  "question": "hh",
+  "answer": "rr"
+
+}
+
+<> 2020-05-04T035513.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T035456.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T035357.200.json
+
+###
+
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 6,
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs"
+
+}
+
+<> 2020-05-04T035348.200.json
+
+###
+
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 6,
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs"
+
+}
+
+<> 2020-05-04T035050.500.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T035040.200.json
+
+###
+
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 6,
+  "question": "reefeggdsf",
+  "answer": "gsgsfgsdfgs"
+
+}
+
+<> 2020-05-04T034520.500.txt
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T034508.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=ree
+
+<> 2020-04-30T084636.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-30T084615.200.json
+
+###
+
+GET http://localhost:9997/api/categories
+
+<> 2020-04-29T102336.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=ree
+
+<> 2020-04-29T102326.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=как
+
+<> 2020-04-29T102315.200.json
+
+###
+
+GET http://localhost:9997/api/answers/search?q=нывавы
+
+<> 2020-04-29T102307.200.json
+
+###
+
+GET http://localhost:9997/api/answers
+
+<> 2020-04-29T102245.200.json
+
+###
+
 GET http://localhost:9997/api/answers/search?q=нывавы
 
 <> 2020-04-25T040816.200.json
@@ -244,123 +386,6 @@ GET http://localhost:9997/api/answers/search?q=к
 GET http://localhost:9997/api/answers
 
 <> 2020-04-25T083803.200.json
-
-###
-
-GET http://localhost:9997/api/answers/search?q=к
-
-<> 2020-04-25T083755.500.txt
-
-###
-
-GET http://localhost:9997/api/answers/search?q=к
-
-###
-
-GET http://localhost:9997/api/answers/search?q=к
-
-<> 2020-04-25T082413.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-25T082345.200.json
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "ншк",
-  "answer": "гк",
-  "id_category": 2
-}
-
-<> 2020-04-25T082341.200.json
-
-###
-
-POST http://localhost:9997/api/categories
-Content-Type: application/json
-
-{
-  "name": "Салом"
-}
-
-<> 2020-04-25T082257.200.json
-
-###
-
-GET http://localhost:9997/api/categories
-
-<> 2020-04-25T081924.500.txt
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-25T081719.200.json
-
-###
-
-POST http://localhost:9997/api/answers
-Content-Type: application/json
-
-{
-  "question": "Как  зовут?",
-  "answer": "Меня зовут Парвиз",
-  "id_category": 1
-}
-
-<> 2020-04-25T081715.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-25T081550.200.json
-
-###
-
-GET http://localhost:9997/api/categories
-
-<> 2020-04-25T081542.500.txt
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T051813.200.json
-
-###
-
-DELETE http://localhost:9997/api/answers/5
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T051456.200.json
-
-###
-
-GET http://localhost:9997/api/categories
-
-<> 2020-04-24T114846.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T114817.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-24T114521.200.json
 
 ###
 

@@ -154,6 +154,20 @@ func (service *AnswersSvc) RemoveById(id int) (err error) {
 	return nil
 }
 
+func (service *AnswersSvc) UpdateAnswerAndQuestion(model models.QuestionsAndAnswers2) (err error) {
+	update, err := service.pool.Acquire(context.Background())
+	if err != nil {
+		log.Printf("can't acuire: %d", err)
+		return errors2.QueryErrors("can't execute pool: ", err)
+	}
+	defer  update.Release()
+	_, err = update.Exec(context.Background(), "UPDATE answers SET questions = $1 , answers = $2 WHERE id = $3 and removed = false", model.Question, model.Answer, model.Id)
+	if err != nil {
+		return errors2.QueryErrors("can't remove : ", err)
+	}
+	return nil
+}
+
 //---------------------DB Tables----------------------
 
 func (service *AnswersSvc) Start() {
