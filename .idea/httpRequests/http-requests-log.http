@@ -1,3 +1,23 @@
+GET http://localhost:9997/api/answers
+
+<> 2020-05-04T040025.200.json
+
+###
+
+POST http://localhost:9997/api/answers/up
+Content-Type: application/json
+
+{
+  "id": 7,
+  "question": "hh",
+  "answer": "rr"
+
+}
+
+<> 2020-05-04T040021.200.json
+
+###
+
 POST http://localhost:9997/api/answers/up
 Content-Type: application/json
 
@@ -374,18 +394,6 @@ GET http://localhost:9997/api/answers/search?q=к
 GET http://localhost:9997/api/answers/search?q=к
 
 <> 2020-04-25T084728.500.txt
-
-###
-
-GET http://localhost:9997/api/answers/search?q=к
-
-<> 2020-04-25T084556.200.json
-
-###
-
-GET http://localhost:9997/api/answers
-
-<> 2020-04-25T083803.200.json
 
 ###
 

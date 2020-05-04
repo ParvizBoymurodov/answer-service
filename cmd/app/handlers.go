@@ -78,7 +78,7 @@ func (receiver server) handleAddAnswersAndQuestions() func(http.ResponseWriter, 
 
 }
 
-func (receiver server) updateAnswerAndQuestion() func(http.ResponseWriter, *http.Request) {
+func (receiver server) handleUpdateAnswerAndQuestion() func(http.ResponseWriter, *http.Request) {
 	return func(writer http.ResponseWriter, request *http.Request) {
 		get := request.Header.Get("Content-Type")
 		if get != "application/json" {
@@ -86,21 +86,21 @@ func (receiver server) updateAnswerAndQuestion() func(http.ResponseWriter, *http
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			return
 		}
-		a := models.QuestionsAndAnswers2{}
-		err := rest.ReadJSONBody(request, &a)
+		ansQue := models.QuestionsAndAnswers2{}
+		err := rest.ReadJSONBody(request, &ansQue)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			log.Printf("can'r read json: %d", err)
 			return
 		}
-		err = receiver.answersSvc.UpdateAnswerAndQuestion(a)
+		err = receiver.answersSvc.UpdateAnswerAndQuestion(ansQue)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 			log.Print(err)
 			return
 		}
 
-		err = rest.WriteJSONBody(writer, &a)
+		err = rest.WriteJSONBody(writer, &ansQue)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 		}
@@ -137,21 +137,21 @@ func (receiver server) handleAddCategory() func(http.ResponseWriter, *http.Reque
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			return
 		}
-		сategory := models.Сategory{}
-		err := rest.ReadJSONBody(request, &сategory)
+		category := models.Сategory{}
+		err := rest.ReadJSONBody(request, &category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			log.Printf("can'r read json: %d", err)
 			return
 		}
-		err = receiver.answersSvc.AddCategory(сategory)
+		err = receiver.answersSvc.AddCategory(category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 			log.Print(err)
 			return
 		}
 
-		err = rest.WriteJSONBody(writer, &сategory)
+		err = rest.WriteJSONBody(writer, &category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 		}
@@ -182,37 +182,27 @@ func (receiver server) handleRemovedCategory() func(http.ResponseWriter, *http.R
 
 func (receiver server) handleUpdateCategory() func(http.ResponseWriter, *http.Request) {
 	return func(writer http.ResponseWriter, request *http.Request) {
-		//idCategory, ok := mux.FromContext(request.Context(), "id")
-		//if !ok {
-		//	http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
-		//	return
-		//}
-		//id, err := strconv.Atoi(idCategory)
-		//if err != nil {
-		//	http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
-		//	return
-		//}
 		get := request.Header.Get("Content-Type")
 		if get != "application/json" {
 			log.Println("can't")
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			return
 		}
-		сategory := models.Сategory{}
-		err := rest.ReadJSONBody(request, &сategory)
+		category := models.Сategory{}
+		err := rest.ReadJSONBody(request, &category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusBadRequest), http.StatusBadRequest)
 			log.Printf("can'r read json: %d", err)
 			return
 		}
-		err = receiver.answersSvc.UpdateCategory(сategory)
+		err = receiver.answersSvc.UpdateCategory(category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 			log.Print(err)
 			return
 		}
 
-		err = rest.WriteJSONBody(writer, &сategory)
+		err = rest.WriteJSONBody(writer, &category)
 		if err != nil {
 			http.Error(writer, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 		}

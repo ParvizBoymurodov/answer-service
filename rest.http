@@ -18,7 +18,7 @@ POST http://localhost:9997/api/answers/up
 Content-Type: application/json
 
 {
-  "id": 5,
+  "id": 7,
   "question": "hh",
   "answer": "rr"
 
